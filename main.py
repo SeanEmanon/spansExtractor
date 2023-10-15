@@ -48,7 +48,6 @@ for i in csv_FriPa[1:]:  # first two rows are examples (20.08.2023)
         if (csv_qt30[d][9] == response_part or csv_qt30[d][9] == "part " + response_part) and response_part != "":
             if len(csv_qt30[d][11]) <= 6:  # there are texts instead of corpus numbers sometimes in the column
                 json_corpus = csv_qt30[d][11]
-                print("Corpus: " + json_corpus)
                 response_json_ID = json_corpus  # writing to outer scope
                 try:
                     with open("jsons/" + json_corpus + ".json", encoding='utf-8-sig') as f:

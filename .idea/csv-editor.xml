@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\FriPa_new1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\FriPa_new_dub.csv">
           <value>
             <Attribute>
@@ -18,6 +25,13 @@
           </value>
         </entry>
         <entry key="\qt30.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\venv\FriPa_new1.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
