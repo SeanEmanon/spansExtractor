@@ -68,6 +68,6 @@ for i in csv_FriPa[1:]:  # first two rows are examples (20.08.2023)
                             relevant_nodes.append(node["nodeID"])
                 i[11] = str(relevant_nodes)
 
-with open('FriPa_new_dub.csv', 'w', encoding='utf-8') as f:
+with open('FriPa_new_dub.csv', 'w', newline='', encoding='utf-8') as f:
     csv_writer = csv.writer(f)
     csv_writer.writerows(csv_FriPa)
